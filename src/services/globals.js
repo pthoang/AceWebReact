@@ -1,0 +1,4 @@
+
+export const api = 'https://ace-dev.herokuapp.com';
+export const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMSwiZmFjZWJvb2tfaWQiOjEwMTU0MjkwMTk2MTQ4ODYwLCJ1c2VybmFtZSI6IkpvbmFmIn0sImlhdCI6MTQ4NjcyNDkwMSwiZXhwIjoxNDg5MzE2OTAxfQ.F570x9qfxtWf5BkkWqYx6AZSR29HhArhp_UcOgQ3094'
+;
