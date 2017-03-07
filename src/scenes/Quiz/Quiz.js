@@ -34,13 +34,12 @@ export default class Quiz extends Component{
                 alternatives={this.state.exercises[number].alternatives}
                 onUserAnswered={(index, correct) => this.state.userAnswered[number] === undefined?
                   this.handleUserAnswered(index, correct): this.onNextExercise()}
-                userAnswered={this.state.userAnswered[number]}>
-      </Exercise>
+                userAnswered={this.state.userAnswered[number]}
+      />
         :
       <Victory exercises={this.state.exercises}
                userAnswered={this.state.userAnswered}
-               score={this.state.score}>
-      </Victory>)
+               score={this.state.score} />)
   }
 
   handleUserAnswered(index, correct) {
